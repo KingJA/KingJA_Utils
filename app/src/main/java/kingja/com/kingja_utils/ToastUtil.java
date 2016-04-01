@@ -60,6 +60,7 @@ public class ToastUtil {
         mToast.setView(toastRoot);
         mToast.show();
     }
+    
     private static int dip2px(int dip) {
         float density = BaseApplication.getContext().getResources().getDisplayMetrics().density;
         return (int) (dip * density + 0.5);
